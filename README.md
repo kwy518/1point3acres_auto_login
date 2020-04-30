@@ -1,7 +1,7 @@
 # 1point3acres automatic login application on Heroku
 
 ## Summary
-An automated script to get daily rewards from 1point3acres (一畝三分地), 
+An automated Python script to get daily rewards from 1point3acres (一畝三分地), 
 and deploy the application on Heroku.
 
 ## Deployment
