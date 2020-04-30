@@ -39,9 +39,9 @@ driver.find_element_by_xpath("(//input[@name='qdmode'])[2]").click()
 print('Successful Autofill review')
 time.sleep(SLEEP_TIME)
 
-# Submit
-# driver.find_element_by_css_selector("button.pn.pnc").click()
-# print('Successful Submit daily request')
+#Submit
+driver.find_element_by_css_selector("button.pn.pnc").click()
+print('Successful Submit daily request')
 
 # Quit
 driver.quit()
