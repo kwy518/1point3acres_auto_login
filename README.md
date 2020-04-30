@@ -38,7 +38,7 @@ and deploy the application on Heroku.
    - Click `Open App` to see the results!
    
 Optional:
--
+
 Set up Scheduler on Heroku:
 * Click `Resources` > `Heroku Scheduler` > `Create Job`
 * Choose `Every day at ...` with anytime you like
@@ -46,3 +46,10 @@ Set up Scheduler on Heroku:
 * Save job
 
 <img src="https://i.imgur.com/hj6adwI.png">
+
+Reference
+-
+
+- [1p3a_python_script](https://github.com/VividLau/1p3a_python_script)
+
+I follow this  idea and instruction, and deploy the application on the Heroku, which can schedule a daily job to make the automated script more convienient.
