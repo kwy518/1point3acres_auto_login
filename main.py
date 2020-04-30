@@ -21,27 +21,27 @@ driver.find_element_by_id("ls_username").send_keys(os.environ.get("USERNAME"))
 driver.find_element_by_id("ls_password").send_keys(os.environ.get("PASSWORD"))
 time.sleep(SLEEP_TIME)
 driver.find_element_by_css_selector("button.pn.vm").click()
-print('Successful Login')
+print('Login Successfully')
 time.sleep(SLEEP_TIME)
 
 # Click Daily Reward
 driver.find_element_by_xpath("//font[text()='签到领奖!']").click()
 time.sleep(SLEEP_TIME)
-print('Successful click Daily Reward')
+print('Click Daily Reward Successfully')
 
 # Choose Mood
-driver.find_element_by_css_selector("#kx > center > img").click()
+driver.find_element_by_css_selector("#kx > center > img").click() # happy moode. choose whatever you want.
 time.sleep(SLEEP_TIME)
-print('Successful Choose Mood')
+print('Choose Mood Successfully')
 
 # Quick select
 driver.find_element_by_xpath("(//input[@name='qdmode'])[2]").click()
-print('Successful Autofill review')
+print('Autofill review Successfully')
 time.sleep(SLEEP_TIME)
 
-#Submit
+# Submit
 driver.find_element_by_css_selector("button.pn.pnc").click()
-print('Successful Submit daily request')
+print('Submit Daily Request Successfully')
 
 # Quit
 driver.quit()
