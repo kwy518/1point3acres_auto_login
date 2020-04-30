@@ -1,1 +1,1 @@
-web: python 1point3acres_auto.py
+web: python main.py
