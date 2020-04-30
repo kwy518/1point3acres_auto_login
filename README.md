@@ -9,7 +9,7 @@ and deploy the application on Heroku.
 1. Fork to your github repository.
 <img src="https://imgur.com/k3Y979C.png">
 
-2. Create the Heroku free acount.
+2. Create the Heroku free account.
 
 3. Create new app on Heruko.
   - Click `New` > `Create New App` > `Create your own app name`
